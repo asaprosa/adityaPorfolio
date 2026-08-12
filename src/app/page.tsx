@@ -1,0 +1,30 @@
+import { Nav } from "@/components/Nav";
+import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
+import { InkReveal } from "@/components/InkReveal";
+import { Skills } from "@/components/Skills";
+import { Projects } from "@/components/Projects";
+import { Experience } from "@/components/Experience";
+import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
+import { ProfilePhoto } from "@/components/ProfilePhoto";
+import { personal } from "@/data/personal";
+
+export default function Home() {
+  return (
+    <>
+      <Nav />
+      <main className="relative">
+        <Hero />
+        <About />
+        <InkReveal text={personal.manifesto} leadWord={personal.manifestoLead} />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+        <ProfilePhoto />
+      </main>
+      <Footer />
+    </>
+  );
+}
