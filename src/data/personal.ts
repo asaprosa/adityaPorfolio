@@ -8,7 +8,7 @@ export const personal = {
   email: "adityaaghodke2@gmail.com",
   links: {
     github: "https://github.com/asaprosa",
-    linkedin: "https://linkedin.com/in/aditya-ghodke",
+    linkedin: "https://www.linkedin.com/in/adityaaghodke/",
   },
   headlineWords: ["QA", "AUTOMATION", "ENGINEER"],
   availability: "Available for work",
