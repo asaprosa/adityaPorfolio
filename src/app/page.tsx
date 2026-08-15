@@ -1,4 +1,5 @@
 import { Nav } from "@/components/Nav";
+import { IntroSplash } from "@/components/IntroSplash";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { InkReveal } from "@/components/InkReveal";
@@ -13,6 +14,7 @@ import { personal } from "@/data/personal";
 export default function Home() {
   return (
     <>
+      <IntroSplash />
       <Nav />
       <main className="relative">
         <Hero />
